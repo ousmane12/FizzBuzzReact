@@ -42,7 +42,7 @@ class Next extends Component {
   
   render(){
     return (
-      <div className="App">
+      <div className="App" data-testid="main">
         <h1>FizzBuzz Stage 2</h1>
         <div className="btn-group">
         <h2> 

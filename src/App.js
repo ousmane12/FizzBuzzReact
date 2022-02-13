@@ -48,7 +48,7 @@ class App extends Component {
   render(){
     return (
       <Router>
-      <div className="App">
+      <div className="App" data-testid='app'>
         <h1>FizzBuzz Player</h1>
         <div className="btn-group">
         <h2> 
